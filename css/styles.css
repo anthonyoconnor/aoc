@@ -1,5 +1,4 @@
-body {
-   
+body { 
     line-height: 1.6;
     font-size: 18px;
     color: #444;
@@ -43,4 +42,9 @@ h3 {
 .contact a {
     color: #444;
     text-decoration: none;
+}
+
+.icon {
+    width: 2em;
+    vertical-align: -0.7em;
 }
