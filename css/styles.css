@@ -29,6 +29,29 @@ header a:hover {
     color: #adadad;
 }
 
+.about img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and (max-width: 319px) {
+    .about img {
+       display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.portrait {
+    text-align: center;
+}
+
 h1,
 h2,
 h3 {
