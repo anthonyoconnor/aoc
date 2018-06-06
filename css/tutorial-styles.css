@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 1em;
+}
+
+h1,h2,h3 {
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+h3 {
+    padding-bottom: 0.7em;
+}
+
+p {
+    margin: 0;
+    padding: 0 0 1em 0;
+}
+
+section {
+    padding: 2em 1.5em;
+}
+
+
+pre {
+    margin: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word; 
+}
+
+code {
+    color: #000;
+    margin: 1em 0;
+}
+
+.command-line {
+    font-style: italic;
+}
+
+.note {
+    font-style: italic;
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+/* HEADER */
+header {
+    background: #333;
+    color: #fff;
+}
+
+header .content {
+    padding: 3em 1.5em;
+}
+
+header h1 {
+    font-size: 3em;
+    text-transform: uppercase; 
+}
+header h2 {
+    font-style: italic;
+    text-align: left;
+}
+
+header .date {
+    font-size: 0.7em;
+}
+
+/* INTRO */
+
+.intro {
+    line-height: 1.6em;
+}
+
+.intro a {
+    color: #000;
+    transition: all 0.2s linear; 
+}
+
+.intro a:hover, a:focus {
+    color: #357099;
+}
+
+/* PREREQUISITES */
+.prerequisites {
+    background: #010024;
+    color: #fff;
+}
+
+.prerequisites a {
+    color: #fff;
+    transition: all 0.2s linear; 
+}
+
+.prerequisites a:hover, a:focus {
+    color: #357099;
+}
+
+
+.prerequisites code {
+    color: #fff;
+}
+
+.images {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 2em;
+}
+
+.images img {
+    width: auto;
+}
+
+
+/* DARK */
+.dark {
+    background: #eaeaea;
+    color: #333;
+}
+
+.dark a {
+    color: #333;
+    transition: all 0.2s linear; 
+}
+
+.dark a:hover, a:focus {
+    color: #357099;
+}
+
+
+/* LIGHT */
+.light {
+    background: #fff;
+    color: #181818;
+}
+
+.light a {
+    color: #181818;
+    transition: all 0.2s linear; 
+}
+
+.light a:hover, a:focus {
+    color: #357099;
+}
+
+/* FOOTER */
+
+footer {
+    background: #333;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 2em;
+    text-transform: uppercase; 
+}
+
+footer a {
+    color: #fff;
+    transition: all 0.2s linear; 
+}
+
+footer a:hover, a:focus {
+    color: #357099;
+}
+
+@media(min-width: 700px) {
+    section,
+    header {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+
+    .content {
+        grid-column: 2/4;
+    }
+}

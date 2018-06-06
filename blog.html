@@ -15,11 +15,30 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Anthony O'Connor - Full stack software developer living in Vancouver. Team Lead. C#, Java, .Net, Angular.">
+    <meta name="description" content="Anthony O'Connor - blog">
     <meta name="author" content="Anthony O'Connor">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <title>About Anthony O'Connor</title>
+    <title>Anthony O'Connor blog</title>
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        a {
+            color: #333;
+            transition: all 0.2s linear;
+        }
+
+        a:hover,
+        a:focus {
+            color: #357099;
+        }
+
+        .date {
+            font-size: 0.8em;
+        }
+
+        article h1 {
+            margin: 0;
+        }
+    </style>
 </head>
 
 <body>
@@ -39,24 +58,14 @@
     </header>
 
     <section>
-        <!-- If you are looking the source there is not much to see.
-        It's a pretty stripped down bare webpage. This site is a bit of a nod to http://motherfuckingwebsite.com/ and it's sibling sites.
-        So just some text and a tiny bit of basic css to make it look ok. 
-        But hey it has responsive design by default since its just text and an image!-->
-        <div class="about">
-            <p class="portrait">
-                <img src="images/portrait.jpg" alt="Just my picture. Nothing to see here ... That's an alt tag joke!">
-            </p>
-            <p>Hi, I'm Anthony O'Connor. I'm a full stack software developer living in Vancouver.</p>
-
-            <p>I write code, delete code, write some more code, lead development teams and work with business teams to deliver
-                high value products and services.</p>
-            <p>Feel free to
-                <a href="/contact">contact me</a>.</p>
-
-
-        </div>
-
+        <article>
+            <div class="date">2018-06-05</div>
+            <h1>
+                <a href="/blog/angular6-tutorial">Angular 6 tutorial</a>
+            </h1>
+            <p>In this tutorial I'm going to walk through the process of creating a web app from scratch using Angular 6. This
+                will show everything you need to build a fully functioning, although slightly useless, web application.</p>
+        </article>
     </section>
 </body>
 
