@@ -119,7 +119,7 @@
             <p>With the code open in your editor and
                 <em>ng serve</em> running you can make changes in a file and see them reflected straight away in your browser
                 once you save. Let's try that now.</p>
-            <p>Open app.component.html file and delete everything there. Replace it with this.</p>
+            <p>Open <em>app.component.html</em> file and delete everything there. Replace it with this.</p>
 
             <pre> 
             <code>
@@ -131,7 +131,7 @@
         </pre>
 
             <p>Open
-                <em>app.component.ts</em> file and replace the AppComponent class with this.</p>
+                <em>app.component.ts</em> file and replace the <em>AppComponent</em> class with this.</p>
 
             <pre>
             <code>
@@ -154,7 +154,7 @@ export class AppComponent {
             <p>This shows a very simple example of Angulars
                 <a href="https://angular.io/guide/template-syntax#interpolation----">interpolation binding syntax</a>. The double curly braces in the html file, for example
                 <em>{{city}}</em>, will take whatever value is stored in the AppComponents city property and display it in the
-                html file. Change the city property in AppComponent and save the file. This new value will now show in your
+                html file. Change the city property in <em>AppComponent</em> and save the file. This new value will now show in your
                 browser.
             </p>
         </div>
@@ -593,7 +593,7 @@ export let weatherServiceProvider = {
             <p>
                 <a href="https://github.com/anthonyoconnor/weather/commit/b975e68801ac720e8822fdc291001d5971eaccee" target="_blank">View changes in GitHub</a>
             </p>
-            <p>To get input from the user add an input box to the add-city.component.html file.</p>
+            <p>To get input from the user add an input box to the <em>add-city.component.html</em> file.</p>
 
             <pre>  <code>
 &lt;input type=&quot;text&quot; placeholder=&quot;Vancouver&quot; [(ngModel)]=&quot;newCity&quot;&gt; 
@@ -625,7 +625,7 @@ imports: [
             </p>
             <p>Ok, an input box on its own isn't much use. Add a button and we will use it to call the API and check if the
                 city exists. We can reuse the existing API. If we call it and it succeeds then the city exists, otherwise
-                the city couldn't be found. In the add-city.component.html file add the button and a click event.</p>
+                the city couldn't be found. In the <em>add-city.component.html</em> file add the button and a click event.</p>
             <p>
                 <code>&lt;button (click)=&quot;addCity()&quot;&gt;Add&lt;/button&gt;</code>
             </p>
