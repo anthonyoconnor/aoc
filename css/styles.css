@@ -27,6 +27,7 @@ header a {
 header a:hover {
     padding: 20px;
     color: #adadad;
+    transition: all 0.5s ease-out;
 }
 
 .about img {
@@ -62,12 +63,23 @@ h3 {
     list-style-type: none;
 }
 
-.contact a {
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social a {
     color: #444;
     text-decoration: none;
 }
 
-.icon {
+.social a:hover {
+    color: #adadad;
+    transition: all 0.5s ease-out;
+}
+
+.social .icon {
     width: 2em;
-    vertical-align: -0.7em;
+    padding: 0 1em;
 }
