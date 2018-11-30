@@ -6,7 +6,7 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>http://www.anthonyoconnor.ca/</loc>
-  <lastmod>2018-06-05</lastmod>
+  <lastmod>2018-11-30</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
@@ -32,6 +32,11 @@
 <url>
   <loc>http://www.anthonyoconnor.ca/blog/pattern-matching-game</loc>
   <lastmod>2018-10-19</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.anthonyoconnor.ca/blog/digitally-uncommon</loc>
+  <lastmod>2018-11-30</lastmod>
   <priority>0.80</priority>
 </url>
 </urlset>
