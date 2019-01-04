@@ -185,3 +185,20 @@ footer a:hover, a:focus {
         grid-column: 2/4;
     }
 }
+
+.notification {
+    border: 2px solid rgb(151, 151, 151);
+    border-radius: 5px;
+    grid-column: 2/4;
+    padding: 20px;
+}
+
+.inputs {
+    display: grid;
+    grid-template-columns: max-content;
+    grid-gap: 5px;
+}
+
+.inputs label {
+    text-align: right;
+}

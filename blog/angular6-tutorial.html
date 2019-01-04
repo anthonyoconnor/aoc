@@ -280,6 +280,23 @@ ngOnInit() {
         </div>
     </section>
 
+    <section>
+        <div class="content notification">
+            <p>If you like this tutorial and would like to be notified when I post more tutorials please sign up here.</p>
+            <p>Or just send an email to anthonyoconnor@gmail.com.</p>
+            <form name="contact" method="POST" action="/notification-success" netlify-honeypot="name" netlify>
+                <p style="display: none">
+                    <label>Don’t fill this out if you're human: <input name="name" /></label>
+                </p>
+                <div  class="inputs">
+                    <label>Name: <input type="text" maxlength="50" name="fullname" /></label>
+                    <label>Your Email: <input type="email" name="email" /></label>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
     <section class="dark">
         <div class="content">
             <h2>Time for some refactoring</h2>
@@ -885,6 +902,23 @@ return this.httpClient.get<any>(apiCall).pipe(
                 <a href="https://www.anthonyoconnor.ca/contact">Contact me</a> if you have any issues or questions.</p>
         </div>
     </section>
+
+    <section>
+            <div class="content notification">
+                <p>If you liked this tutorial and would like to be notified when I post more tutorials please sign up here.</p>
+                <p>Or just send an email to anthonyoconnor@gmail.com.</p>
+                <form name="contact" method="POST" action="/notification-success" netlify-honeypot="name" netlify>
+                    <p style="display: none">
+                        <label>Don’t fill this out if you're human: <input name="name" /></label>
+                    </p>
+                    <div class="inputs">
+                        <label>Name: <input type="text" maxlength="50" name="fullname" /></label>
+                        <label>Your Email: <input type="email" name="email" /></label>
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
 
 
     <footer>
