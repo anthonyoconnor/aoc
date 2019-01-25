@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book reviews</title>
+    <meta name="description" content="Book reviews.">
+    <meta name="author" content="Anthony O'Connor">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            font-size: 16px;
+            margin: 0 0 3em 0;
+        }
+
+        a {
+            color: rgb(57, 104, 185);
+            transition: all 0.2s linear;
+            text-decoration: none;
+        }
+
+        a:hover,
+        a:focus {
+            color: #357099;
+            text-decoration: underline;
+        }
+
+        article header {
+            padding: 1em 0;
+        }
+
+        article header time {
+            font-size: 0.7em;
+        }
+
+        h1 {
+            font-size: 1.1em;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 1em;
+        }
+
+        h3 {
+            font-style: italic;
+            font-size: 0.8em;
+            margin: 2px 0;
+        }
+
+        h4 {
+            font-style: italic;
+            font-size: 0.6em;
+            margin-top: 2px;
+        }
+
+        article section {
+            padding: 0;
+        }
+
+        section {
+            padding: 1em;
+        }
+
+
+        @media(min-width: 700px) {
+            article {
+                display: grid;
+                grid-template-columns: 1fr minmax(auto, 40em) 1fr;
+            }
+
+            article header {
+                display: grid;
+                grid-column: 1/4;
+                grid-template-columns: 1fr minmax(auto, 40em) 1fr;
+            }
+
+            article header time {
+                grid-column: 2;
+            }
+
+            h1 {
+                grid-column: 2;
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            h3 {
+                font-style: italic;
+                font-size: 1em;
+                margin: 10px 0px;
+            }
+
+
+            h4 {
+                font-style: italic;
+                font-size: 0.7em;
+                margin-top: 2px;
+            }
+
+            article section {
+                grid-column: 2;
+                padding: 0;
+            }
+
+            p {
+                grid-column: 2;
+            }
+
+            div {
+                grid-column: 2;
+            }
+        }
+
+        nav {
+            font-size: 24px;
+            background-color: rgb(208, 208, 208);
+            margin: 0;
+            padding: 0px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/blog">anthonyoconnor.ca blog</a>
+        </nav>
+    </header>
+    <section>
+        <article>
+            <header>
+                <time pubdate datetime="2019-01-18">Last Updated: 2019-01-18</time>
+                <h1>Book reviews</h1>
+                <p>These are books I've read and what I though about them. I add to this list periodically.</p>
+                <div>
+                    <ul>
+                        <li> <a href="#HowTheInternetHappened">How the Internet Happened: From Netscape to the iPhone</a></li>
+                    </ul>
+                </div>
+
+            </header>
+
+            <section>
+                <h2 id='HowTheInternetHappened'>How the Internet Happened: From Netscape to the iPhone</h2>
+                <h3>by Brian McCullough</h3>
+                <h4>January 2019</h4>
+                <p><a href="https://www.amazon.com/gp/product/B07BLJ1QYZ/" target="_blank">How the Internet Happened</a>
+                    gives a great
+                    history of how
+                    today's internet came to be. It starts around the time of the development of the first web browsers
+                    and goes right
+                    through the dot com boom and subsequent crash and on through the rise of amazon, google, netflix
+                    and facebook and
+                    ends around the time of the launch of the iphone. The author has a podcast ‘<a href="http://www.internethistorypodcast.com/"
+                        target="_blank">The
+                        internet history podcast</a>’ in which he has interviewed hundreds of people to conduct
+                    research for the book.</p>
+                <p>I found the stories around the dot com boom and the explosive valuations of companies at the time to
+                    be particularly
+                    interesting. McCullough gives reasons for why he thinks the dot com boom happened at the time it
+                    did and also why
+                    he things it can’t really happen again in the same fashion. First off the web was just beginning.
+                    Nobody really
+                    knew what is was or why would you even need it. It is so ingrained in our lives today that it might
+                    be hard to
+                    imagine but people did just fine without the web existing. The stock market at the time had been
+                    steadily
+                    increasing for years. Lots of the baby boomers generation had money and were looking for places to
+                    invest. It was a
+                    perfect storm that lead to high valuations of companies, which lead to even more insane valuations.
+                    It got to a
+                    point where it didn’t matter if you had no idea how to make money, or even no possible way to make
+                    money, as long
+                    as you were associated with the internet and the web you could IPO and get a massive first day
+                    valuation pop.
+                    Through interviews with investors, as well as people working at these companies we get an insider
+                    view of what it
+                    was like during that time.</p>
+                <p>Some of the other things that stood out to me in the book was how the internet and web were like the
+                    wild west.
+                    Nothing existed and yet there was no limit to what could be done. Nobody had figured out how to
+                    properly make money
+                    on the web. Which is probably the main reason bigger companies ignored the web for so long.</p>
+                <p>Amazon launch their whole business with just a website where you could order books. They had
+                    nothing. No
+                    infrastructure, only a few people. It's hard to imagine given what Amazon is today. But they just
+                    started taking
+                    orders, then they would order the book themselves from the distributors and ship it to the customer
+                    once they got
+                    it. The existing brick and mortar bookstores didn’t see them as a treat become who would want to
+                    ever buy books
+                    online. That was just crazy. By the time these stores started to realise Amazon was onto something
+                    it was too late.
+                    Amazon was already well on it’s way to becoming ‘the everything store’ it is today.</p>
+                <p>The rise of Google is obviously included since they were one of the first to really crack making
+                    money to sustain a
+                    proper business online. What’s funny is that the idea for Google Ads was pretty much just copied
+                    from another
+                    company, a company that nobody will likely remember the name of today. That’s not to say Google
+                    didn’t improve on
+                    it and really make it into the backbone of their business. They took the idea and made it better, a
+                    lot better, and
+                    from that it proved that it was possible to sustain businesses online.</p>
+                <p>There are lots of stories like these through the book which were thoroughly enjoyable to read about.
+                    The rise of
+                    Facebook was another interesting story. The part I found the most interesting was about how Mark
+                    Zuckerberg didn’t
+                    really see Facebook as a winner from the start. He was spending time on other ideas to see if they
+                    would work.
+                    Ultimately it was advice from others that made him finally see Facebook for what it could become
+                    and shift all his
+                    focus to it. This is a theme seen a few times in the book. He touches on how the rise of mobile and
+                    the rise of
+                    social were tied together and fed off each other to allow both to become the monsters they are
+                    today.</p>
+                <p>Overall the book the is a great read and gives lots of insight into how the internet and web got to
+                    be what you see
+                    today. I’d highly recommend it to anyone.</p>
+            </section>
+    </section>
+    </article>
+    </section>
+</body>
+
+</html>
