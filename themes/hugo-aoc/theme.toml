@@ -1,0 +1,6 @@
+name = "hugo-aoc"
+license = "MIT"
+
+[author]
+  name = "Anthony O'Connor"
+  homepage = "https://anthonyoconnor.ca"

@@ -1,0 +1,106 @@
+body { 
+  line-height: 1.6;
+  font-size: 16px;
+  color: #444;
+  font-family: 'Open Sans', sans-serif;
+}
+
+section {
+  margin: 40px auto;
+  max-width: 650px;
+  padding: 0 10px;
+}
+
+header {
+  text-align: center;
+  line-height: 3;
+  background: #444;
+  color: #fff;
+}
+
+header a {
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+header a:hover {
+  padding: 20px;
+  color: #adadad;
+  transition: all 0.5s ease-out;
+}
+
+.about img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+@media screen and (max-width: 319px) {
+  .about img {
+     display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about img {
+      width: 150px;
+      height: 150px;
+  }
+}
+
+.portrait {
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2
+}
+
+.contact ul {
+  list-style-type: none;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social a {
+  color: #444;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: #adadad;
+  transition: all 0.5s ease-out;
+}
+
+.social .icon {
+  width: 2em;
+  padding: 0 1em;
+}
+
+
+a {
+  color: #333;
+  transition: all 0.2s linear;
+}
+
+a:hover,
+a:focus {
+  color: #357099;
+}
+
+.date {
+  font-size: 0.9em;
+}
+
+
+.notification {
+  border: 2px solid rgb(151, 151, 151);
+  border-radius: 5px;
+}

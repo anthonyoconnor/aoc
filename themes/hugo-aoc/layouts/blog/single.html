@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Site.Title }}</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/css/blog-style.css" | relURL }}" />
+    <meta name="description" content="{{ .Description | default .Site.Params.Description }}">
+    <meta name="author" content="{{ .Site.Params.author }}">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/blog">anthonyoconnor.ca blog</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <header>
+                    {{ if (gt .Params.date 0) }}<time pubdate
+                        datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format "2006-01-02" }}</time>{{ end }}
+
+                    <h1>{{ .Title | markdownify }}</h1>
+                </header>
+
+                {{ .Content }}
+            </article>
+        </section>
+    </main>
+
+    <div class="blog-nav">
+        <div>
+            {{ if .PrevInSection }}
+            <a href="{{.PrevInSection.Permalink}}">Previous: {{.PrevInSection.Name}} </a>
+            {{ end }}
+        </div>
+        <div>
+            {{ if .NextInSection }}
+            <a href="{{.NextInSection.Permalink}}">Next: {{.NextInSection.Name}}</a>
+            {{ end }}
+        </div>
+    </div>
+    {{ partial "footer.html" . }}
