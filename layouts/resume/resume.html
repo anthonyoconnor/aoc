@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Anthony O'Connor resume. Software Developer, Senior Software Engineer, Team Lead, Technical Lead. C#, Java, Angular, Full Stack. Qtrade, Orbital, Microsoft, Western Digital, Avigilon. ">
+    <meta name="description"
+        content="Anthony O'Connor resume. Software Developer, Senior Software Engineer, Team Lead, Technical Lead. C#, Java, Angular, Full Stack. Qtrade, Orbital, Microsoft, Western Digital, Avigilon. ">
     <meta name="author" content="Anthony O'Connor">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
     <title>Anthony O'Connor Resume</title>
     <link rel="stylesheet" href="/css/resume-styles.css">
@@ -15,189 +15,281 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="/">ABOUT</a>
-            <a href="/resume">RÉSUMÉ</a>
-            <a href="/blog">BLOG</a>
-        </nav>
-    </header>
+    <div class="resume">
+        <section class="summary">
+            <div class="profile">
+                <img src="/images/portrait.jpg" alt="A picture of me.">
+                <h1>Anthony O'Connor</h1>
+                <h2>Senior Software Engineer</h2>
+            </div>
+            <div class="contacts">
+                <ul>
+                    <li>
+                        <svg class="icon" aria-hidden="true" viewBox="0 0 512 512">
+                            <path fill="currentColor"
+                                d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+                            </path>
+                        </svg>
+                        <a href="https://www.anthonyoconnor.ca">www.anthonyoconnor.ca</a>
+                    </li>
+                    <li>
+                        <svg class="icon" aria-hidden="true" viewBox="0 0 512 512">
+                            <path fill="currentColor"
+                                d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+                            </path>
+                        </svg>
+                        <a href="mailto:anthonyoconnor@gmail.com">anthonyoconnor@gmail.com</a>
+                    </li>
+                    <li>
+                        <svg class="icon" aria-hidden="true" viewBox="0 0 448 512">
+                            <path fill="currentColor"
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+                            </path>
+                        </svg>
+                        <a href="https://www.linkedin.com/in/anthonyjoconnor"
+                            target="_blank">linkedin.com/in/anthonyjoconnor</a>
+                    </li>
+                    <li>
+                        <svg class="icon" aria-hidden="true" viewBox="0 0 496 512">
+                            <path fill="currentColor"
+                                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                            </path>
+                        </svg>
+                        <a href="https://github.com/anthonyoconnor" target="_blank">github.com/anthonyoconnor</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-    <section>
-        <h1>Anthony O'Connor</h1>
-        <h2>Senior Software Engineer and Team Lead</h2>
-        <ul>
-            <li>Over 15 years of full stack development experience in a wide range of industries and technologies.</li>
-            <li>Proven history of delivering high business value projects.</li>
-            <li>Extensive experience working with key project stakeholders to ensure projects are delivered to a high quality
-                helping to ensure business success. Heavily involved in technical analysis, design, architecture and project
-                estimation.
-            </li>
-            <li>Experience working with both small and large teams providing leadership, mentorship and technical direction.</li>
-        </ul>
-    </section>
+        <section class="details">
+
+            <section>
+                <h1>Anthony O'Connor</h1>
+                <h2>Senior Software Engineer and Team Lead</h2>
+                <ul>
+                    <li>Over 15 years of full stack development experience in a wide range of industries and
+                        technologies.
+                    </li>
+                    <li>Proven history of delivering high business value projects.</li>
+                    <li>Extensive experience working with key project stakeholders to ensure projects are delivered to a
+                        high quality
+                        helping to ensure business success. Heavily involved in technical analysis, design, architecture
+                        and
+                        project
+                        estimation.
+                    </li>
+                    <li>Experience working with both small and large teams providing leadership, mentorship and
+                        technical
+                        direction.</li>
+                </ul>
+            </section>
 
 
-    <section>
-        <h2>Qtrade Financial Group</h2>
-        <h3>June 2016 - Present</h3>
-        <ul>
-            <li>Contracted through Orbital Technologies.</li>
-            <li>Chosen specifically by the management team to be the lead developer on four business critical projects within
-                Qtrade.
-            </li>
-            <li>Lead a large team to successfully deliver Qtrades Robo-advisor platform -
-                <a href="https://www.virtualwealth.ca">VirtualWealth</a>. This project ensured Qtrades entrance in the growing Robo-advisors market.
-            </li>
-            <li>Lead a large team to successfully deliver an updated fully online application process for the Qtrade investor
-                platform -
-                <a href="https://www.qtrade.ca/investor/apply">Qtrade.ca</a>. This new application process has been a huge success for the company and has enabled Qtrade
-                to process over three times the volume of new applications compared to their old system. The new system supports
-                eid and esignature to reduce completion time of applications. Scrum master for multiple projects within Qtrade.
-            </li>
-            <li>Heavily involved in system architecture design and choice of technology stack to ensure the business can grow
-                to meet its future needs.</li>
-            <li>Extensive experience working directly with the Business team, marketing team, project managers, business analysts
-                and QA team to ensure the development team has everything they need to successfully deliver high quality
-                results.
-            </li>
-            <li>Technologies used: Java, Angular (2,3,5,6), Typescript, Angular CLI, Javascript, JQuery, Git.</li>
-        </ul>
-    </section>
+            <section>
+                <h2>Qtrade Financial Group</h2>
+                <h3>June 2016 - Present</h3>
+                <ul>
+                    <li>Contracted through Orbital Technologies.</li>
+                    <li>Chosen specifically by the management team to be the lead developer on four business critical
+                        projects within
+                        Qtrade.
+                    </li>
+                    <li>Lead a large team to successfully deliver Qtrades Robo-advisor platform -
+                        <a href="https://www.virtualwealth.ca">VirtualWealth</a>. This project ensured Qtrades entrance
+                        in
+                        the growing Robo-advisors market.
+                    </li>
+                    <li>Lead a large team to successfully deliver an updated fully online application process for the
+                        Qtrade
+                        investor
+                        platform -
+                        <a href="https://www.qtrade.ca/investor/apply">Qtrade.ca</a>. This new application process has
+                        been
+                        a huge success for the company and has enabled Qtrade
+                        to process over three times the volume of new applications compared to their old system. The new
+                        system supports
+                        eid and esignature to reduce completion time of applications. Scrum master for multiple projects
+                        within Qtrade.
+                    </li>
+                    <li>Heavily involved in system architecture design and choice of technology stack to ensure the
+                        business
+                        can grow
+                        to meet its future needs.</li>
+                    <li>Extensive experience working directly with the Business team, marketing team, project managers,
+                        business analysts
+                        and QA team to ensure the development team has everything they need to successfully deliver high
+                        quality
+                        results.
+                    </li>
+                    <li>Technologies used: Java, Angular (2,3,5,6), Typescript, Angular CLI, Javascript, JQuery, Git.
+                    </li>
+                </ul>
+            </section>
 
-    <section>
-        <h2>Orbital Technologies Ltd.</h2>
-        <h3>October 2011 - Present</h3>
-        <ul>
-            <li>
-                <a href="http://orbitaltech.com/">http://orbitaltech.com/</a>
-            </li>
-            <li>Provide consulting and development services to numerous client companies.</li>
-            <li>Through Orbital I have contracted to multiple clients both working remotely and onsite.</li>
-            <li>Extensive experience being the initial point of contact with clients as well as growing the development team
-                as needed during the project life cycles.
-            </li>
-            <li>Within Orbital itself I have been involved in the review of potential projects for new clients to determine their
-                suitability given available skill sets and timelines.
-            </li>
-            <li>Key member involved in the hiring and interviewing of new developers. Provide mentoring to developers to ensure
-                they can grow successfully grow and improve their skills.
-            </li>
-        </ul>
-    </section>
+            <section>
+                <h2>Orbital Technologies Ltd.</h2>
+                <h3>October 2011 - Present</h3>
+                <ul>
+                    <li>
+                        <a href="http://orbitaltech.com/">http://orbitaltech.com/</a>
+                    </li>
+                    <li>Provide consulting and development services to numerous client companies.</li>
+                    <li>Through Orbital I have contracted to multiple clients both working remotely and onsite.</li>
+                    <li>Extensive experience being the initial point of contact with clients as well as growing the
+                        development team
+                        as needed during the project life cycles.
+                    </li>
+                    <li>Within Orbital itself I have been involved in the review of potential projects for new clients
+                        to
+                        determine their
+                        suitability given available skill sets and timelines.
+                    </li>
+                    <li>Key member involved in the hiring and interviewing of new developers. Provide mentoring to
+                        developers to ensure
+                        they can grow successfully grow and improve their skills.
+                    </li>
+                </ul>
+            </section>
 
-    <section>
-        <h2>Microsoft</h2>
-        <h3>March 2016 - June 2016</h3>
-        <ul>
-            <li>Contracted through Orbital Technologies.</li>
-            <li>Senior developer in large team working on Microsoft's Next Generation Volume Licensing system.</li>
-            <li>Technologies used: .Net, C#, ASP MVC, WCF, Web API, SQL Server.</li>
-        </ul>
-    </section>
+            <section>
+                <h2>Microsoft</h2>
+                <h3>March 2016 - June 2016</h3>
+                <ul>
+                    <li>Contracted through Orbital Technologies.</li>
+                    <li>Senior developer in large team working on Microsoft's Next Generation Volume Licensing system.
+                    </li>
+                    <li>Technologies used: .Net, C#, ASP MVC, WCF, Web API, SQL Server.</li>
+                </ul>
+            </section>
 
-    <section>
-        <h2>Avigilon</h2>
-        <h3>August 2015 - December 2015</h3>
-        <ul>
-            <li>Contracted through Orbital Technologies.</li>
-            <li>Worked with a small self directed team of developers to deliver a custom desktop application for Avigilons business
-                needs within a very short time frame.</li>
-            <li>This application was critical to reducing the amount of time that onsite installers need to configure large volumes
-                of IP cameras thus reducing cost. </li>
-            <li>The application allowed bulk configuration of IP cameras from anywhere on a network. </li>
-            <li>The team was commended by the Avigilon management team for requiring very little oversight but still keeping
-                stakeholders up to date on progress through bi-weekly demos.</li>
-            <li>Technologies used: .Net, C#, WPF, WCF, Mercurial.</li>
-        </ul>
-    </section>
+            <section>
+                <h2>Avigilon</h2>
+                <h3>August 2015 - December 2015</h3>
+                <ul>
+                    <li>Contracted through Orbital Technologies.</li>
+                    <li>Worked with a small self directed team of developers to deliver a custom desktop application for
+                        Avigilons business
+                        needs within a very short time frame.</li>
+                    <li>This application was critical to reducing the amount of time that onsite installers need to
+                        configure large volumes
+                        of IP cameras thus reducing cost. </li>
+                    <li>The application allowed bulk configuration of IP cameras from anywhere on a network. </li>
+                    <li>The team was commended by the Avigilon management team for requiring very little oversight but
+                        still
+                        keeping
+                        stakeholders up to date on progress through bi-weekly demos.</li>
+                    <li>Technologies used: .Net, C#, WPF, WCF, Mercurial.</li>
+                </ul>
+            </section>
 
-    <section>
-        <h2>Western Digital</h2>
-        <h3>November 2013 - August 2015</h3>
-        <ul>
-            <li>Contracted through Orbital Technologies.</li>
-            <li>Team lead of 5 developers working on improving and maintaining the server backend for the WD My Cloud personal
-                cloud storage devices.</li>
-            <li>Conducted extensive research to determine suitable Single Sign On provider.</li>
-            <li>Integration of Ping Federate to support Single Sign On using SAML. </li>
-            <li>Responsible for estimation, scheduling and documentation of all project features.</li>
-            <li>Technologies used: Java, struts, Oracle DB, Javascript, JQuery, SAML, Ping Federate.</li>
-        </ul>
-    </section>
+            <section>
+                <h2>Western Digital</h2>
+                <h3>November 2013 - August 2015</h3>
+                <ul>
+                    <li>Contracted through Orbital Technologies.</li>
+                    <li>Team lead of 5 developers working on improving and maintaining the server backend for the WD My
+                        Cloud personal
+                        cloud storage devices.</li>
+                    <li>Conducted extensive research to determine suitable Single Sign On provider.</li>
+                    <li>Integration of Ping Federate to support Single Sign On using SAML. </li>
+                    <li>Responsible for estimation, scheduling and documentation of all project features.</li>
+                    <li>Technologies used: Java, struts, Oracle DB, Javascript, JQuery, SAML, Ping Federate.</li>
+                </ul>
+            </section>
 
-    <section>
-        <h2>Avarto Systems North America</h2>
-        <h3>October 2011 - November 2013</h3>
-        <ul>
-            <li>Contracted through Orbital Technologies.</li>
-            <li>Team lead for four developers working on implementation and support of eCommerce sites for Intel and Lenovo.</li>
-            <li>Design and development of the Intel Driver download application which scans machines to determine what driver
-                updates are available based on the machines hardware.</li>
-            <li>Technologies used: ASP.NET, C#, SQL Server, WPF</li>
-        </ul>
-    </section>
+            <section>
+                <h2>Avarto Systems North America</h2>
+                <h3>October 2011 - November 2013</h3>
+                <ul>
+                    <li>Contracted through Orbital Technologies.</li>
+                    <li>Team lead for four developers working on implementation and support of eCommerce sites for Intel
+                        and
+                        Lenovo.</li>
+                    <li>Design and development of the Intel Driver download application which scans machines to
+                        determine
+                        what driver
+                        updates are available based on the machines hardware.</li>
+                    <li>Technologies used: ASP.NET, C#, SQL Server, WPF</li>
+                </ul>
+            </section>
 
-    <section>
-        <h2>MMX Software</h2>
-        <h3>February 2010 - October 2011</h3>
-        <ul>
-            <li>Involved in the continued development of back-end systems, and support tools, for a major online poker network,
-                Cake Poker, based on the .Net platform with a SQL Server 2008 database.
-            </li>
-            <li>Key member of the technical excellence group having an aim to increase code quality across the company through
-                increasing TDD usage, unit test coverage, code reviews and pair programming.
-            </li>
-            <li>Involved in fostering agile software development practices within the company following SCRUM methodologies.</li>
-            <li>Participate in a group that determine the technical direction of the company, focusing on moving towards an SOA-based
-                system.
-            </li>
-            <li>Worked within a agile team of three developers to architect, design and develop a scalable, highly available
-                and highly distributed gaming platform, with an aim to support up to 250,000 concurrent users.</li>
-            <li>Technologies used: .NET 4, C#, WCF SOAP Services, ASP.Net MVC 2, JQuery, LINQ to SQL, SQL Server, MongoDB, ActiveMQ,
-                WPF.
-            </li>
-        </ul>
-    </section>
+            <section>
+                <h2>MMX Software</h2>
+                <h3>February 2010 - October 2011</h3>
+                <ul>
+                    <li>Involved in the continued development of back-end systems, and support tools, for a major online
+                        poker network,
+                        Cake Poker, based on the .Net platform with a SQL Server 2008 database.
+                    </li>
+                    <li>Key member of the technical excellence group having an aim to increase code quality across the
+                        company through
+                        increasing TDD usage, unit test coverage, code reviews and pair programming.
+                    </li>
+                    <li>Involved in fostering agile software development practices within the company following SCRUM
+                        methodologies.</li>
+                    <li>Participate in a group that determine the technical direction of the company, focusing on moving
+                        towards an SOA-based
+                        system.
+                    </li>
+                    <li>Worked within a agile team of three developers to architect, design and develop a scalable,
+                        highly
+                        available
+                        and highly distributed gaming platform, with an aim to support up to 250,000 concurrent users.
+                    </li>
+                    <li>Technologies used: .NET 4, C#, WCF SOAP Services, ASP.Net MVC 2, JQuery, LINQ to SQL, SQL
+                        Server,
+                        MongoDB, ActiveMQ,
+                        WPF.
+                    </li>
+                </ul>
+            </section>
 
-    <section>
-        <h2>Electronic Arts (EA)</h2>
-        <h3>September 2006 - December 2009</h3>
-        <ul>
-            <li>Involved in the development of tools and technology that aid in reducing the development cost of next-generation
-                games on Xbox 360, PS3 and Wii.
-            </li>
-            <li>Key member in setting up a new low-cost development studio in India.</li>
-            <li>Traveled to and worked in India for one month to participate in the staff recruitment process and the training
-                of new hires.</li>
-            <li>Mentored a team of six junior software engineers.</li>
-            <li>Technologies used: C#, C++, SQL Server, WPF.</li>
-        </ul>
-    </section>
+            <section>
+                <h2>Electronic Arts (EA)</h2>
+                <h3>September 2006 - December 2009</h3>
+                <ul>
+                    <li>Involved in the development of tools and technology that aid in reducing the development cost of
+                        next-generation
+                        games on Xbox 360, PS3 and Wii.
+                    </li>
+                    <li>Key member in setting up a new low-cost development studio in India.</li>
+                    <li>Traveled to and worked in India for one month to participate in the staff recruitment process
+                        and
+                        the training
+                        of new hires.</li>
+                    <li>Mentored a team of six junior software engineers.</li>
+                    <li>Technologies used: C#, C++, SQL Server, WPF.</li>
+                </ul>
+            </section>
 
-    <section>
-        <h2>Symantec</h2>
-        <h3>July 2003 - June 2006</h3>
-        <ul>
-            <li>QA Automation tool development.</li>
-            <li>Technologies used: C#, C++, Java, Perl.</li>
-        </ul>
-    </section>
+            <section>
+                <h2>Symantec</h2>
+                <h3>July 2003 - June 2006</h3>
+                <ul>
+                    <li>QA Automation tool development.</li>
+                    <li>Technologies used: C#, C++, Java, Perl.</li>
+                </ul>
+            </section>
 
-    <section>
-        <h2>AIB</h2>
-        <h3>January 2001 - September 2001</h3>
-        <ul>
-            <li>Co-operative work placement.</li>
-            <li>Technologies used: ASP, JavaScript, MS SQL Server 2000.</li>
-        </ul>
-    </section>
+            <section>
+                <h2>AIB</h2>
+                <h3>January 2001 - September 2001</h3>
+                <ul>
+                    <li>Co-operative work placement.</li>
+                    <li>Technologies used: ASP, JavaScript, MS SQL Server 2000.</li>
+                </ul>
+            </section>
 
-    <section>
-        <h1>Education</h1>
-        <h2>University of Limerick</h2>
-        <h3>Bachelor of Science - Computer Systems 1999 - 2003</h3>
-    </section>
+            <section>
+                <h1>Education</h1>
+                <h2>University of Limerick</h2>
+                <h3>Bachelor of Science - Computer Systems 1999 - 2003</h3>
+            </section>
+        </section>
+    </div>
+
+
+
 </body>
 
 </html>
