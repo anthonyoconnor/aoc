@@ -20,6 +20,7 @@ img {
     width: 160px;
     border-radius: 50%;
 }
+
 /* SUMMARY */ 
 .summary {
     background: #42A8C0;
@@ -27,12 +28,12 @@ img {
 }
 
 .summary h1 {
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .summary h2 {
     color: rgba(255, 255, 255, 0.6);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
 }
 
@@ -48,7 +49,7 @@ img {
 }
 
 .contacts {
-    padding: 2em;
+    padding: 1em 2em 1em 4em;
 }
 
 .contacts a {
@@ -75,6 +76,8 @@ img {
 
 /* END SUMMARY */ 
 
+/* DETAILS */ 
+
 .details {
     background: #fff;
     width: 100%;
@@ -90,6 +93,7 @@ img {
 .details h3 {
     margin: 0;
     padding: 0;
+    font-size: 16px;
 }
 
 .details h4 {
@@ -105,57 +109,61 @@ img {
     padding-left: 20px;
 }
 
+.details ul li {
+    margin-bottom: 0.4em;
+}
+
 .details .company {
     display: flex;
     justify-content: space-between;
 }
+
+/* END SUMMARY */ 
 
 
 @media (min-width: 800px) {
     body {
         padding: 1.5rem;
     }
+
+    .contacts {
+        padding: 2em 2em 2em 2em;
+    }
+
     .summary { 
         flex: 1 0;
         min-width: 300px; 
     }
+    .summary h1 {
+        font-size: 30px;
+    }
+    
+    .summary h2 {
+        font-size: 16px;
+    }
+
     .details    { 
         flex: 2;
         padding: 3em; 
     }
-
     .details h2 {
         font-size: 20px;
     }
-  }
+    
+    .details h3 {
+        font-size: 18px;
+    }
+    
+    .details h4 {
+        font-size: 14px;
+    }
 
+    .details ul {
+        padding-left: 30px;
+    }
+    
+    .details ul li {
+        margin-bottom: 0.5em;
+    }
+}
 
-.wrapper {
-    display: flex;  
-    flex-flow: row wrap;
-    max-width: 960px;
-     margin: auto;
-  }
-  
-  .wrapper > * {
-    padding: 10px;
-    flex: 1 100%;
-  }
-  
-  
-.main {
-    text-align: left;
-    background: deepskyblue;
-  }
-  
-  .aside-1 {
-    background: gold;
-  }
-  
-  
- 
-  @media all and (min-width: 600px) {
-    .aside { flex: 1 0; }
-    .main    { flex: 2; }
-  }
-  
