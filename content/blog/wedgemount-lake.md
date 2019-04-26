@@ -17,42 +17,50 @@ We left Vancouver a little after 5am. The Gran Fondo race was on on Saturday so 
 
 Anyway got to the trail head around 7.30. About 10 or so cars already in the parking lot. Hit the trail for a bit before 8. It was definitely tough going. Passed a few others that were going camping. It's a long slog up with a big back pack!
 
-![Nearing the lake.](/images/blog/wedgemount-lake/Wedgemount-Lake-090.jpg) 
+<noscript><img src="/images/blog/wedgemount-lake/Wedgemount-Lake-090.jpg" alt="Nearing the lake."></noscript>
+<img class="lazy" data-src="/images/blog/wedgemount-lake/Wedgemount-Lake-090.jpg" alt="Nearing the lake.">
 
 We made it to the lake in around 1 hour 50 minutes. Legs were definitely burning the whole way. There were only a few tents at the lake at that time so lots of free spots.
 
-![First view of wedgemount lake.](/images/blog/wedgemount-lake/Wedgemount-Lake-094.jpg) 
+<noscript><img src="/images/blog/wedgemount-lake/Wedgemount-Lake-094.jpg" alt="First view of wedgemount lake."></noscript>
+<img class="lazy" data-src="/images/blog/wedgemount-lake/Wedgemount-Lake-094.jpg" alt="First view of wedgemount lake.">
 
 We headed up towards Mt. Cook a bit before taking a break for some food. We met one other hiker on his way up to Mt. Cook. He was on his way up while we stopped for some food so he was about half an hour ahead of us.
 
 From reports I had read online the trip up to Mt. Cook takes 4 hours round trip. And its the easiest hike from Wedgemount. Easiest is relative here! I really didn't think it was going to be as hard as it was. The first hour or so isn't too bad. A bit of scrambling but mostly solid rock.
 
-![On the way to Mt. Cook.](/images/blog/wedgemount-lake/Wedgemount-Lake-125.jpg) 
+<noscript><img src="/images/blog/wedgemount-lake/Wedgemount-Lake-125.jpg" alt="On the way to Mt. Cook."></noscript>
+<img class="lazy" data-src="/images/blog/wedgemount-lake/Wedgemount-Lake-125.jpg" alt="On the way to Mt. Cook.">
 
 We were following cairns most of the way but then you meet the scree slope!
 
-
-![Standing at the bottome of the endless scree slope.](/images/blog/wedgemount-lake/Wedgemount-Lake-153.jpg) 
+<noscript><img src="/images/blog/wedgemount-lake/Wedgemount-Lake-153.jpg" alt="Standing at the bottome of the endless scree slope."></noscript>
+<img class="lazy" data-src="/images/blog/wedgemount-lake/Wedgemount-Lake-153.jpg" alt="Standing at the bottome of the endless scree slope.">
 
 It goes on and on and on. It just never seems to end. We lost track of the cairns at this stage so I think we might have cut up a bit too early since we found it quite steep. Had to zig zag a bit to make it up. Had to take lots of breaks on the way up the slope. I think we had burnt our legs out from getting to the lake. 
 
 The only good part of it is the view when you turn around. Whistler pops out eventually and you can see all the way to the tusk as well.
 
-![View of whistler from the scree slope.](/images/blog/wedgemount-lake/Wedgemount-Lake-168.jpg) 
+<noscript><img src="/images/blog/wedgemount-lake/Wedgemount-Lake-168.jpg" alt="View of whistler from the scree slope."></noscript>
+<img class="lazy" data-src="/images/blog/wedgemount-lake/Wedgemount-Lake-168.jpg" alt="View of whistler from the scree slope.">
 
-![View of the valley from the scree slope.](/images/blog/wedgemount-lake/Wedgemount-Lake-169.jpg)
+<noscript><img src="/images/blog/wedgemount-lake/Wedgemount-Lake-169.jpg" alt="View of the valley from the scree slope."></noscript>
+<img class="lazy" data-src="/images/blog/wedgemount-lake/Wedgemount-Lake-169.jpg" alt="View the valley from the scree slope.">
 
 We eventually made it to what we thought was the top.
 
-![Not quite the top yet, but close.](/images/blog/wedgemount-lake/Wedgemount-Lake-171.jpg) 
+<noscript><img src="/images/blog/wedgemount-lake/Wedgemount-Lake-171.jpg" alt="Not quite the top yet, but close."></noscript>
+<img class="lazy" data-src="/images/blog/wedgemount-lake/Wedgemount-Lake-171.jpg" alt="Not quite the top yet, but close.">
 
 There were some cairns marking the spot we were standing but then you see another huge cairn off up even higher.The hiker we met earlier was making his way up to it so we headed off to follow him. From where we were it looked like we would have to cross the snow to get to it. When you make your way over closer you can see there is a narrow ridge you have to cross. It doesn't look too bad in the picture but it feels fairly sketchy while you are crossing it.
 
-![Crossing the ridge. Do not fall.](/images/blog/wedgemount-lake/Wedgemount-Lake-203.jpg)
+<noscript><img src="/images/blog/wedgemount-lake/Wedgemount-Lake-203.jpg" alt="Crossing the ridge. Do not fall."></noscript>
+<img class="lazy" data-src="/images/blog/wedgemount-lake/Wedgemount-Lake-203.jpg" alt="Crossing the ridge. Do not fall.">
 
 About 5 or 10 minutes later you are at the real top. The elevation at the top of Mt. Cook is 2676 meters
 
-![The top of Mt. Cook.](/images/blog/wedgemount-lake/Wedgemount-Lake-212.jpg)
+<noscript><img src="/images/blog/wedgemount-lake/Wedgemount-Lake-212.jpg" alt="The top of Mt. Cook."></noscript>
+<img class="lazy" data-src="/images/blog/wedgemount-lake/Wedgemount-Lake-212.jpg" alt="The top of Mt. Cook.">
 
 I think it took us about 2 and half hours to get up there. 
 We took a well deserved rest for a half hour and then headed down. 
@@ -63,6 +71,7 @@ Just before the lake we met a couple heading up to Mt. Cook. There were camping 
 
 Headed down to the lake for a nice swim after that. It was cold but felt so good. Swam (for a few seconds) in Joffre lake last year and that was much colder. Great to wash off the sweat and dust and take a rest. Spent about an hour around the lake.
 
-![Campsites at wedgemount lake.](/images/blog/wedgemount-lake/Wedgemount-Lake-354.jpg)
+<noscript><img src="/images/blog/wedgemount-lake/Wedgemount-Lake-354.jpg" alt="Campsites at wedgemount lake."></noscript>
+<img class="lazy" data-src="/images/blog/wedgemount-lake/Wedgemount-Lake-354.jpg" alt="Campsites at wedgemount lake.">
 
 We left the lake around 4.15. Made it back to the car for 5.30. We jogged most of the way down.

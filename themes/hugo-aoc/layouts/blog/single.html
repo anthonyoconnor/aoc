@@ -49,4 +49,32 @@
             {{ end }}
         </div>
     </div>
+
+    <script>
+        const config = {
+            rootMargin: '0px 0px 200px 0px',
+            threshold: 0
+        };
+
+        let observer = new IntersectionObserver(function (entries, self) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    preloadImage(entry.target);
+                    self.unobserve(entry.target);
+                }
+            });
+        }, config);
+
+
+        const imgs = document.querySelectorAll('[data-src]');
+        imgs.forEach(img => {
+            observer.observe(img);
+        });
+
+        function preloadImage(img) {
+            img.src = img.getAttribute('data-src');
+            img.classList.remove("lazy");
+        }
+
+    </script>
     {{ partial "footer.html" . }}

@@ -72,6 +72,10 @@ section {
     p {
         grid-column: 2;
     }
+
+    noscript {
+        grid-column: 2;
+    }
 }
 
 nav {
@@ -88,4 +92,8 @@ nav {
 
 img {
     width: 100%;
+}
+
+img .lazy {
+    visibility: collapse;
 }
