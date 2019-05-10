@@ -1,10 +1,10 @@
 ---
 title: "Anthony O'Connor"
-date: 2019-02-22T10:00:54-08:00
+date: 2019-05-10T10:00:54-08:00
 ---
  <div class="about">
 <p class="portrait">
-    <img src="images/portrait.jpg" alt="Just my picture. Nothing to see here ... That's an alt tag joke!">
+    <img src="images/portrait.jpg">
 </p>
 
 <div class="social">
