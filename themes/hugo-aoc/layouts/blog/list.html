@@ -1,20 +1,6 @@
 {{ partial "header.html" . }}
 
 <main>
-  <section class="notification">
-    <p>If you would like to be notified when I post something just add your email here.</p>
-    <form name="contact" method="POST" action="/notification-success" netlify-honeypot="name" netlify>
-      <p style="display: none">
-        <label>Don’t fill this out if you're human: <input name="name" /></label>
-      </p>
-      <p>
-        <label>Your Email: <input type="email" name="email" /></label>
-        <button type="submit">Submit</button>
-      </p>
-    </form>
-  </section>
-
-
   {{ range (where .Data.Pages "Section" "!=" "") }}
   <section>
     <article>
@@ -32,4 +18,17 @@
     </article>
   </section>
   {{ end }}
+
+  <section class="notification">
+      <p>If you would like to be notified when I post something just add your email here.</p>
+      <form name="contact" method="POST" action="/notification-success" netlify-honeypot="name" netlify>
+        <p style="display: none">
+          <label>Don’t fill this out if you're human: <input name="name" /></label>
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+          <button type="submit">Submit</button>
+        </p>
+      </form>
+    </section>
 </main>
