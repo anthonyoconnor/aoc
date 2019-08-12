@@ -21,6 +21,7 @@ class UI {
         const list = document.querySelector('#dice-list');
 
         const row = document.createElement('div');
+        row.className = "dice";
         row.innerHTML = `
         <h1>${die.title}</h1>
         <div id=${die.title}></div>

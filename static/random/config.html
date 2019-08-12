@@ -21,25 +21,37 @@
             text-align: center;
         }
 
-        .highlighted {
-            background: rgb(19, 171, 148);
+        h1 {
+            font-size: 1.2rem;
+            padding-bottom: 10px;
         }
+
 
         .editDie {
             margin-top: 20px;
             margin-bottom: 20px;
+        }
+
+        .addNew {
+            padding-top: 20px;
+            border-top: 2px solid gray;
+        }
+        .nav {
+            margin: 10px 0 30px 0;
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <div> <a href="roll.html">Back</a></div>
+        <div class="nav"> <a href="roll.html">Back</a></div>
         <button id="clear">Clear All</button>
         <div id="dice-list">
         </div>
-        <input id="newDie">
-        <button id="add">Add</button>
+        <div class="addNew">
+            <input id="newDie">
+            <button id="add">Add</button>
+        </div>
     </div>
     <script src="edit.js"></script>
 </body>
