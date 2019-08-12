@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Roll - configuration</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 2rem;
+            text-align: center;
+        }
+
+        .highlighted {
+            background: rgb(19, 171, 148);
+        }
+
+        .editDie {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div> <a href="roll.html">Back</a></div>
+        <button id="clear">Clear All</button>
+        <div id="dice-list">
+        </div>
+        <input id="newDie">
+        <button id="add">Add</button>
+    </div>
+    <script src="edit.js"></script>
+</body>
+
+</html>

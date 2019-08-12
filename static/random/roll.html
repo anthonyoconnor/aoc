@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Roll</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 2rem;
+            text-align: center;
+        }
+
+        .highlighted {
+            background: rgb(19, 171, 148);
+        }
+
+        .roll {
+            margin: 20px;
+            padding: 5px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div> <a href="config.html">Configure</a></div>
+        <button class="roll" id="roll">Roll</button>
+        <div id="dice-list">
+
+        </div>
+    </div>
+    <script src="roll.js"></script>
+</body>
+
+</html>
