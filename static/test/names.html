@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        :root {
+            --jack: blue;
+            --lily: purple;
+            --luke: green;
+            --anthony: rgb(255, 0, 0);
+            --julie: rgb(238, 82, 108);
+        }
+
+        .outside {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+        }
+
+        .parent {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: repeat(9, 60px);
+            grid-template-rows: repeat(9, 60px);
+            grid-gap: 10px;
+            background-color: #fff;
+            color: #444;
+            text-align: center;
+            grid-column: 2;
+        }
+
+        .box {
+            background-color: #444;
+            color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            font-size: 150%;
+            vertical-align: middle;
+        }
+
+
+        .jackJ {
+            grid-area: 1 / 6;
+            background-color: var(--jack);
+        }
+
+        .jackA {
+            grid-area: 1 / 7;
+            background-color: var(--jack);
+        }
+
+        .jackC {
+            grid-area: 1 / 8;
+            background-color: var(--jack);
+        }
+
+        .jackK {
+            grid-area: 1 / 9;
+            background-color: var(--jack);
+        }
+
+        .ant1 {
+            grid-area: 1 / 7;
+            background-color: var(--anthony);
+        }
+
+        .ant2 {
+            grid-area: 2 / 7;
+            background-color: var(--anthony);
+        }
+
+        .ant3 {
+            grid-area: 3 / 7;
+            background-color: var(--anthony);
+        }
+
+        .ant4 {
+            grid-area: 4 / 7;
+            background-color: var(--anthony);
+        }
+
+        .ant5 {
+            grid-area: 5 / 7;
+            background-color: var(--anthony);
+        }
+
+        .ant6 {
+            grid-area: 6 / 7;
+            background-color: var(--anthony);
+        }
+
+        .ant7 {
+            grid-area: 7 / 7;
+            background-color: var(--anthony);
+        }
+
+        .lil1 {
+            grid-area: 7 / 4;
+            background-color: var(--lily);
+        }
+
+        .lil2 {
+            grid-area: 7 / 5;
+            background-color: var(--lily);
+        }
+
+        .lil3 {
+            grid-area: 7 / 6;
+            background-color: var(--lily);
+        }
+
+        .lil4 {
+            grid-area: 7 / 7;
+            background-color: var(--lily);
+        }
+
+        .jul1 {
+            grid-area: 5 / 4;
+            background-color: var(--julie);
+        }
+
+        .jul2 {
+            grid-area: 6 / 4;
+            background-color: var(--julie);
+        }
+
+        .jul3 {
+            grid-area: 7 / 4;
+            background-color: var(--julie);
+        }
+
+        .jul4 {
+            grid-area: 8 / 4;
+            background-color: var(--julie);
+        }
+
+        .jul5 {
+            grid-area: 9 / 4;
+            background-color: var(--julie);
+        }
+
+        .lu1 {
+            grid-area: 9 / 1;
+            background-color: var(--luke);
+        }
+
+        .lu2 {
+            grid-area: 9 / 2;
+            background-color: var(--luke);
+        }
+
+        .lu3 {
+            grid-area: 9 / 3;
+            background-color: var(--luke);
+        }
+
+        .lu4 {
+            grid-area: 9 / 4;
+            background-color: var(--luke);
+        }
+    </style>
+</head>
+
+<body>
+    <div class=outside>
+        <div class="parent">
+            <div class="box ant1">A</div>
+            <div class="box ant2">N</div>
+            <div class="box ant3">T</div>
+            <div class="box ant4">H</div>
+            <div class="box ant5">O</div>
+            <div class="box ant6">N</div>
+            <div class="box ant7">Y</div>
+
+            <div class="box jul1">J</div>
+            <div class="box jul2">U</div>
+            <div class="box jul3">L</div>
+            <div class="box jul4">I</div>
+            <div class="box jul5">E</div>
+
+
+            <div class="box jackJ">J</div>
+            <div class="box jackA">A</div>
+            <div class="box jackC">C</div>
+            <div class="box jackK">K</div>
+
+            <div class="box lil1">L</div>
+            <div class="box lil2">I</div>
+            <div class="box lil3">L</div>
+            <div class="box lil4">Y</div>
+
+            <div class="box lu1">L</div>
+            <div class="box lu2">U</div>
+            <div class="box lu3">K</div>
+            <div class="box lu4">E</div>
+        </div>
+    </div>
+</body>
+
+</html>
