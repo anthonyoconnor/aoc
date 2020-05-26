@@ -57,7 +57,7 @@ const updateWord = () => {
   }
 
 }
-document.getElementById("next").addEventListener("click", (e) => {
+document.getElementById("center").addEventListener("click", (e) => {
   updateWord();
 });
 
