@@ -1,5 +1,5 @@
 
-const words = [
+const popcornWords = [
   "I",
   "a",
   "to",
@@ -32,10 +32,30 @@ const words = [
   "she",
 ]
 
+let words = [...popcornWords];
+
 
 const updateWord = () => {
+
+  if(words.length == 0) {
+    words = [...popcornWords];
+  }
+  console.log(popcornWords);
+  console.log(words);
   let element = document.getElementById("word");
-  element.innerHTML = words[Math.floor(Math.random() * words.length)];;
+  let word = words[Math.floor(Math.random() * words.length)];
+
+  const index = words.indexOf(word);
+  if (index > -1) {
+    words.splice(index, 1);
+  }
+
+  if(words.length == 0) {
+    element.innerHTML = "Well done!";
+  } else {
+    element.innerHTML = word;
+  }
+
 }
 document.getElementById("next").addEventListener("click", (e) => {
   updateWord();
