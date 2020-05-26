@@ -40,8 +40,6 @@ const updateWord = () => {
   if(words.length == 0) {
     words = [...popcornWords];
   }
-  console.log(popcornWords);
-  console.log(words);
   let element = document.getElementById("word");
   let word = words[Math.floor(Math.random() * words.length)];
 
