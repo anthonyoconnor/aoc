@@ -30,6 +30,8 @@ const popcornWords = [
   "will",
   "had",
   "she",
+  "no",
+  "yes"
 ]
 
 let words = [...popcornWords];
