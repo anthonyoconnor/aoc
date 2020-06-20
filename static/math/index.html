@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en" ng-app="additionApp">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Addition</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+  <script src="todo.js"></script>
+
+  <script>
+    angular.module('additionApp', [])
+      .controller('AdditionListController', function () {
+        var additionList = this;
+        const maxNum = 20;
+
+        additionList.completed = [
+        ];
+
+        additionList.nextProblem = { input1: Math.floor(Math.random() * maxNum), input2: Math.floor(Math.random() * maxNum) };
+
+        additionList.restart = () => {
+          additionList.completed = [
+          ];
+        };
+
+        additionList.correct = () => {
+          return additionList.completed.filter(x => x.answer == x.correctAnswer).length;
+        };
+
+        additionList.submit = () => {
+          additionList.completed.push({
+            input1: additionList.nextProblem.input1,
+            input2: additionList.nextProblem.input2,
+            answer: additionList.answer, correctAnswer: additionList.nextProblem.input1 + additionList.nextProblem.input2
+          });
+
+          additionList.nextProblem = { input1: Math.floor(Math.random() * maxNum), input2: Math.floor(Math.random() * maxNum) };
+          additionList.answer = '';
+          var name = document.getElementById('answerInput');
+          name.focus();
+        };
+      });
+  </script>
+</head>
+
+<body style="margin: 40px auto; max-width: 650px;padding: 0 10px;">
+  <h2>Addition</h2>
+  <div ng-controller="AdditionListController as additionList" style="margin-bottom: 40px;">
+    <span>{{additionList.correct()}} of {{additionList.completed.length}} correct</span>
+
+    <ul class="unstyled">
+      <li ng-repeat="todo in additionList.completed">
+        <div ng-if="todo.answer != todo.correctAnswer">
+          <span>{{todo.input1}}</span> + <span>{{todo.input2}}</span> = <span
+            style="text-decoration: line-through; color: red">{{todo.answer}}</span>
+          <span ng-if="todo.answer != todo.correctAnswer"> ({{todo.correctAnswer}})</span>
+        </div>
+        <div ng-if="todo.answer == todo.correctAnswer">
+          <span>{{todo.input1}}</span> + <span>{{todo.input2}}</span> = <span
+            style="color: green">{{todo.answer}}</span>
+        </div>
+      </li>
+    </ul>
+    <form ng-submit="additionList.submit()">
+      <span>{{additionList.nextProblem.input1}}</span> + <span>{{additionList.nextProblem.input2}}</span> =
+      <input id="answerInput" required type="number" ng-model="additionList.answer" style="width: 4em">
+      <input class="btn-primary" type="submit" value="submit">
+    </form>
+    <p>[ <a href="" ng-click="additionList.restart()">restart</a> ]</p>
+  </div>
+  
+  <hr>
+</body>
+
+</html>
