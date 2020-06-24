@@ -33,7 +33,13 @@ const popcornWords = [
   "no",
   "yes",
   "big",
-  "they"
+  "they",
+  "are",
+  "but",
+  "for",
+  "did",
+  "ask",
+  "look"
 ]
 
 let words = [...popcornWords];
